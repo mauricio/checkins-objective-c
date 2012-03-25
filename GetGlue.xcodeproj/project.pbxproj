@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		222295CA151FA36E008ABF96 /* UIViewController+ShowAlertOnError.m in Sources */ = {isa = PBXBuildFile; fileRef = 222295C9151FA36E008ABF96 /* UIViewController+ShowAlertOnError.m */; };
+		222295CD151FB202008ABF96 /* ResourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 222295CC151FB202008ABF96 /* ResourceViewController.m */; };
+		2233EA2D151E500A00C7CA48 /* GetGlueApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 2233EA2C151E500A00C7CA48 /* GetGlueApi.m */; };
+		2233EA30151E521400C7CA48 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 2233EA2F151E521400C7CA48 /* User.m */; };
+		2235260F151F56E10056EFD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2235260E151F56E10056EFD1 /* Main.storyboard */; };
+		22352613151F582D0056EFD1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22352611151F582D0056EFD1 /* RootViewController.m */; };
+		22352614151F582D0056EFD1 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22352612151F582D0056EFD1 /* RootViewController.xib */; };
+		229349A6151F9C2200FDFDEC /* Resource.m in Sources */ = {isa = PBXBuildFile; fileRef = 229349A5151F9C2200FDFDEC /* Resource.m */; };
+		22B56524151E3AB900E9FBBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B56523151E3AB900E9FBBD /* UIKit.framework */; };
+		22B56526151E3AB900E9FBBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B56525151E3AB900E9FBBD /* Foundation.framework */; };
+		22B56528151E3AB900E9FBBD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B56527151E3AB900E9FBBD /* CoreGraphics.framework */; };
+		22B5652A151E3AB900E9FBBD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B56529151E3AB900E9FBBD /* CoreData.framework */; };
+		22B56530151E3AB900E9FBBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22B5652E151E3AB900E9FBBD /* InfoPlist.strings */; };
+		22B56532151E3AB900E9FBBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B56531151E3AB900E9FBBD /* main.m */; };
+		22B56536151E3AB900E9FBBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B56535151E3AB900E9FBBD /* AppDelegate.m */; };
+		22B56539151E3AB900E9FBBD /* GetGlue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22B56537151E3AB900E9FBBD /* GetGlue.xcdatamodeld */; };
+		22B56540151E3C8500E9FBBD /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B5653F151E3C8500E9FBBD /* Login.storyboard */; };
+		22B56543151E3EFA00E9FBBD /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B56542151E3EFA00E9FBBD /* LoginViewController.m */; };
+		22B56547151E3F6900E9FBBD /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B56546151E3F6900E9FBBD /* SignUpViewController.m */; };
+		22E19560151F8C99005F5237 /* ResourcesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E1955F151F8C99005F5237 /* ResourcesTableViewController.m */; };
+		B54793C73F0240D99FA9D7AE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E55092A0AA1C478B9396AE53 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1761755D143C44B4979D9FBA /* Pods.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		222295C8151FA36E008ABF96 /* UIViewController+ShowAlertOnError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+ShowAlertOnError.h"; path = "Utils/UIViewController+ShowAlertOnError.h"; sourceTree = "<group>"; };
+		222295C9151FA36E008ABF96 /* UIViewController+ShowAlertOnError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+ShowAlertOnError.m"; path = "Utils/UIViewController+ShowAlertOnError.m"; sourceTree = "<group>"; };
+		222295CB151FB202008ABF96 /* ResourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResourceViewController.h; path = Main/ResourceViewController.h; sourceTree = "<group>"; };
+		222295CC151FB202008ABF96 /* ResourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResourceViewController.m; path = Main/ResourceViewController.m; sourceTree = "<group>"; };
+		2233EA2B151E500A00C7CA48 /* GetGlueApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GetGlueApi.h; path = Api/GetGlueApi.h; sourceTree = "<group>"; };
+		2233EA2C151E500A00C7CA48 /* GetGlueApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GetGlueApi.m; path = Api/GetGlueApi.m; sourceTree = "<group>"; };
+		2233EA2E151E521400C7CA48 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = Api/User.h; sourceTree = "<group>"; };
+		2233EA2F151E521400C7CA48 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Api/User.m; sourceTree = "<group>"; };
+		2235260E151F56E10056EFD1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		22352610151F582D0056EFD1 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		22352611151F582D0056EFD1 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		22352612151F582D0056EFD1 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		229349A4151F9C2200FDFDEC /* Resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Resource.h; path = Api/Resource.h; sourceTree = "<group>"; };
+		229349A5151F9C2200FDFDEC /* Resource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Resource.m; path = Api/Resource.m; sourceTree = "<group>"; };
+		22B5651F151E3AB900E9FBBD /* GetGlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetGlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B56523151E3AB900E9FBBD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22B56525151E3AB900E9FBBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22B56527151E3AB900E9FBBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22B56529151E3AB900E9FBBD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		22B5652D151E3AB900E9FBBD /* GetGlue-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GetGlue-Info.plist"; sourceTree = "<group>"; };
+		22B5652F151E3AB900E9FBBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22B56531151E3AB900E9FBBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22B56533151E3AB900E9FBBD /* GetGlue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GetGlue-Prefix.pch"; sourceTree = "<group>"; };
+		22B56534151E3AB900E9FBBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22B56535151E3AB900E9FBBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22B56538151E3AB900E9FBBD /* GetGlue.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GetGlue.xcdatamodel; sourceTree = "<group>"; };
+		22B5653F151E3C8500E9FBBD /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		22B56541151E3EFA00E9FBBD /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Login/LoginViewController.h; sourceTree = "<group>"; };
+		22B56542151E3EFA00E9FBBD /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Login/LoginViewController.m; sourceTree = "<group>"; };
+		22B56545151E3F6900E9FBBD /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUpViewController.h; path = Login/SignUpViewController.h; sourceTree = "<group>"; };
+		22B56546151E3F6900E9FBBD /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUpViewController.m; path = Login/SignUpViewController.m; sourceTree = "<group>"; };
+		22E1955E151F8C99005F5237 /* ResourcesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResourcesTableViewController.h; path = Main/ResourcesTableViewController.h; sourceTree = "<group>"; };
+		22E1955F151F8C99005F5237 /* ResourcesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResourcesTableViewController.m; path = Main/ResourcesTableViewController.m; sourceTree = "<group>"; };
+		E55092A0AA1C478B9396AE53 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22B5651C151E3AB900E9FBBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B56524151E3AB900E9FBBD /* UIKit.framework in Frameworks */,
+				22B56526151E3AB900E9FBBD /* Foundation.framework in Frameworks */,
+				22B56528151E3AB900E9FBBD /* CoreGraphics.framework in Frameworks */,
+				22B5652A151E3AB900E9FBBD /* CoreData.framework in Frameworks */,
+				B54793C73F0240D99FA9D7AE /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		222295C6151FA321008ABF96 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				222295C8151FA36E008ABF96 /* UIViewController+ShowAlertOnError.h */,
+				222295C9151FA36E008ABF96 /* UIViewController+ShowAlertOnError.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		2233EA04151E4B2800C7CA48 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		2233EA2A151E4FC500C7CA48 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				2233EA2B151E500A00C7CA48 /* GetGlueApi.h */,
+				2233EA2C151E500A00C7CA48 /* GetGlueApi.m */,
+				2233EA2E151E521400C7CA48 /* User.h */,
+				2233EA2F151E521400C7CA48 /* User.m */,
+				229349A4151F9C2200FDFDEC /* Resource.h */,
+				229349A5151F9C2200FDFDEC /* Resource.m */,
+			);
+			name = Api;
+			sourceTree = "<group>";
+		};
+		2235260C151F56AE0056EFD1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2235260E151F56E10056EFD1 /* Main.storyboard */,
+				22E1955E151F8C99005F5237 /* ResourcesTableViewController.h */,
+				22E1955F151F8C99005F5237 /* ResourcesTableViewController.m */,
+				222295CB151FB202008ABF96 /* ResourceViewController.h */,
+				222295CC151FB202008ABF96 /* ResourceViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		22B56514151E3AB900E9FBBD = {
+			isa = PBXGroup;
+			children = (
+				22B5652B151E3AB900E9FBBD /* GetGlue */,
+				22B56522151E3AB900E9FBBD /* Frameworks */,
+				22B56520151E3AB900E9FBBD /* Products */,
+				1761755D143C44B4979D9FBA /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		22B56520151E3AB900E9FBBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22B5651F151E3AB900E9FBBD /* GetGlue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22B56522151E3AB900E9FBBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22B56523151E3AB900E9FBBD /* UIKit.framework */,
+				22B56525151E3AB900E9FBBD /* Foundation.framework */,
+				22B56527151E3AB900E9FBBD /* CoreGraphics.framework */,
+				22B56529151E3AB900E9FBBD /* CoreData.framework */,
+				E55092A0AA1C478B9396AE53 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22B5652B151E3AB900E9FBBD /* GetGlue */ = {
+			isa = PBXGroup;
+			children = (
+				222295C6151FA321008ABF96 /* Utils */,
+				2235260C151F56AE0056EFD1 /* Main */,
+				2233EA2A151E4FC500C7CA48 /* Api */,
+				2233EA04151E4B2800C7CA48 /* Dependencies */,
+				22B56544151E3F0200E9FBBD /* Login */,
+				22B56534151E3AB900E9FBBD /* AppDelegate.h */,
+				22B56535151E3AB900E9FBBD /* AppDelegate.m */,
+				22B56537151E3AB900E9FBBD /* GetGlue.xcdatamodeld */,
+				22B5652C151E3AB900E9FBBD /* Supporting Files */,
+				22352610151F582D0056EFD1 /* RootViewController.h */,
+				22352611151F582D0056EFD1 /* RootViewController.m */,
+				22352612151F582D0056EFD1 /* RootViewController.xib */,
+			);
+			path = GetGlue;
+			sourceTree = "<group>";
+		};
+		22B5652C151E3AB900E9FBBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22B5652D151E3AB900E9FBBD /* GetGlue-Info.plist */,
+				22B5652E151E3AB900E9FBBD /* InfoPlist.strings */,
+				22B56531151E3AB900E9FBBD /* main.m */,
+				22B56533151E3AB900E9FBBD /* GetGlue-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22B56544151E3F0200E9FBBD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				22B5653F151E3C8500E9FBBD /* Login.storyboard */,
+				22B56541151E3EFA00E9FBBD /* LoginViewController.h */,
+				22B56542151E3EFA00E9FBBD /* LoginViewController.m */,
+				22B56545151E3F6900E9FBBD /* SignUpViewController.h */,
+				22B56546151E3F6900E9FBBD /* SignUpViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22B5651E151E3AB900E9FBBD /* GetGlue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B5653C151E3AB900E9FBBD /* Build configuration list for PBXNativeTarget "GetGlue" */;
+			buildPhases = (
+				22B5651B151E3AB900E9FBBD /* Sources */,
+				22B5651C151E3AB900E9FBBD /* Frameworks */,
+				22B5651D151E3AB900E9FBBD /* Resources */,
+				C5AC42AE4C6942EE8383D3D0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetGlue;
+			productName = GetGlue;
+			productReference = 22B5651F151E3AB900E9FBBD /* GetGlue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22B56516151E3AB900E9FBBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = OfficeDrop;
+			};
+			buildConfigurationList = 22B56519151E3AB900E9FBBD /* Build configuration list for PBXProject "GetGlue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22B56514151E3AB900E9FBBD;
+			productRefGroup = 22B56520151E3AB900E9FBBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22B5651E151E3AB900E9FBBD /* GetGlue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22B5651D151E3AB900E9FBBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B56530151E3AB900E9FBBD /* InfoPlist.strings in Resources */,
+				22B56540151E3C8500E9FBBD /* Login.storyboard in Resources */,
+				2235260F151F56E10056EFD1 /* Main.storyboard in Resources */,
+				22352614151F582D0056EFD1 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C5AC42AE4C6942EE8383D3D0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22B5651B151E3AB900E9FBBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B56532151E3AB900E9FBBD /* main.m in Sources */,
+				22B56536151E3AB900E9FBBD /* AppDelegate.m in Sources */,
+				22B56539151E3AB900E9FBBD /* GetGlue.xcdatamodeld in Sources */,
+				22B56543151E3EFA00E9FBBD /* LoginViewController.m in Sources */,
+				22B56547151E3F6900E9FBBD /* SignUpViewController.m in Sources */,
+				2233EA2D151E500A00C7CA48 /* GetGlueApi.m in Sources */,
+				2233EA30151E521400C7CA48 /* User.m in Sources */,
+				22352613151F582D0056EFD1 /* RootViewController.m in Sources */,
+				22E19560151F8C99005F5237 /* ResourcesTableViewController.m in Sources */,
+				229349A6151F9C2200FDFDEC /* Resource.m in Sources */,
+				222295CA151FA36E008ABF96 /* UIViewController+ShowAlertOnError.m in Sources */,
+				222295CD151FB202008ABF96 /* ResourceViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22B5652E151E3AB900E9FBBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22B5652F151E3AB900E9FBBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22B5653A151E3AB900E9FBBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22B5653B151E3AB900E9FBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22B5653D151E3AB900E9FBBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1761755D143C44B4979D9FBA /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GetGlue/GetGlue-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "GetGlue/GetGlue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22B5653E151E3AB900E9FBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1761755D143C44B4979D9FBA /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GetGlue/GetGlue-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "GetGlue/GetGlue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22B56519151E3AB900E9FBBD /* Build configuration list for PBXProject "GetGlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B5653A151E3AB900E9FBBD /* Debug */,
+				22B5653B151E3AB900E9FBBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B5653C151E3AB900E9FBBD /* Build configuration list for PBXNativeTarget "GetGlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B5653D151E3AB900E9FBBD /* Debug */,
+				22B5653E151E3AB900E9FBBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		22B56537151E3AB900E9FBBD /* GetGlue.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22B56538151E3AB900E9FBBD /* GetGlue.xcdatamodel */,
+			);
+			currentVersion = 22B56538151E3AB900E9FBBD /* GetGlue.xcdatamodel */;
+			path = GetGlue.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 22B56516151E3AB900E9FBBD /* Project object */;
+}
